@@ -1,0 +1,125 @@
+body {
+    background: #0b2233;
+    background-image: url(plantinhas.jpeg);
+    background-size: 98%;
+    background-repeat: no-repeat;
+    background-position: top
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    font-size: large;
+}
+
+.cabecalho__logo {
+    margin: 15px 0 0 50px;
+    max-width: 250px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 150px;
+}
+
+nav a {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+nav a:hover {
+    color: #ff7603;
+    font-size: 120%;
+}
+
+li.cabecalho_link.caixa {
+	border: 4px solid #0b2233;
+	border-radius: 10px;
+    padding: 12px;
+    margin: 0 0 0 150px;
+    background-color: #0b2233;
+}
+
+li.cabecalho_link.caixa:hover {
+    opacity: 1;
+    transition: 800ms;
+    box-shadow:6px 6px #000000, -6px -6px #ff7603;
+}
+
+.home h1 {
+    font-size: 250%;
+    color: greenyellow;
+    font-family: Verdana, sans-serif;
+    margin: 37% 0 2% 5%;
+}
+
+.plantando, .arvore, .plantando_2, .arvore_2 {
+    border-radius: 10px;
+    box-shadow:15px 15px #000000, -15px -15px greenyellow;
+}
+
+.plantando, .plantando_2 {
+    margin: 3% 190px 5% 20%;
+}
+
+.arvore, .arvore_2 {
+    margin: 3% 0 5% 90px;
+}
+
+.home p {
+    font-size: 150%;
+    color: aliceblue;
+    margin: 3% 0 2% 5%;
+    font-family: Verdana, sans-serif;
+}
+
+.principal h2 {
+    font-size: 250%;
+    color: greenyellow;
+    font-family: Verdana, sans-serif;
+    margin: 0 0 2% 5%;
+}
+
+.principal li {
+    font-size: 120%;
+    color: aliceblue;
+    margin: 3% 0 2% 5%;
+    font-family: Verdana, sans-serif;
+}
+
+.social h3 {
+    font-size: 250%;
+    color: greenyellow;
+    font-family: Verdana, sans-serif;
+    margin: 0 0 2% 5%;
+}
+
+.social p {
+    font-size: 120%;
+    color: aliceblue;
+    margin: 3% 8% 2% 5%;
+    font-family: Verdana, sans-serif;
+}
+
+.social .plantar, .certificado {
+    margin: 5% 30% 5% 20%;
+}
+
+footer {
+    background-color: #ff7603;
+}
+
+footer p {
+    font-size: 90%;
+    font-family: 'Lucida Sans', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.rodape {
+    margin: 15px 0 0 42%;
+    max-width: 250px;
+}
